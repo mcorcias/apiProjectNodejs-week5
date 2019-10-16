@@ -1,0 +1,24 @@
+{
+  "name": "apiNodeProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcorcias/apiNodeProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcorcias/apiNodeProject/issues"
+  },
+  "homepage": "https://github.com/mcorcias/apiNodeProject#readme",
+  "dependencies": {
+    "nodemon": "^1.19.3",
+    "request": "^2.88.0"
+  }
+}
