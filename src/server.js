@@ -1,5 +1,5 @@
 const http = require("http");
-const port = 2000;
+const port = process.env.PORT || 2000;
 
 const router = require("./router");
 
