@@ -117,7 +117,7 @@ document.getElementById('submit').addEventListener('click', function (event) {
     const firstName = fullName.split(" ")[0];
     const lastName = fullName.split(" ")[1];
     document.getElementById('container').innerHTML = `<h1>The NBA player which you choosed is: ${fullName} <h1>
-    <iframe width="400" height="400" src="https://nba-players.herokuapp.com/players/${firstName.toLowerCase()}"></iframe>
+    <iframe width="350" height="350" src="https://nba-players.herokuapp.com/players/${firstName.toLowerCase()}"></iframe>
     `
 
 });
