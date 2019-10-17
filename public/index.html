@@ -9,20 +9,24 @@
 </head>
 
 <body>
-    <h2>Autocomplete</h2>
 
-    <p>Start typing:</p>
+    <div class="MainContainer">
+        <h2>Autocomplete for NBA players</h2>
 
-    <!--Make sure the form has the autocomplete function switchejd off:-->
-    <form autocomplete="off" method="POST" action="/">
-        <div class="autocomplete" style="width:300px;">
-            <input id="Input" type="text" name="player" placeholder="Player">
+        <p>Start typing:</p>
+
+        <!--Make sure the form has the autocomplete function switchejd off:-->
+        <form autocomplete="off" method="POST" action="/">
+            <div class="autocomplete" style="width:300px;">
+                <input id="Input" type="text" name="player" placeholder="Player">
+            </div>
+            <input id="submit" type="submit">
+        </form>
+        <div id="container">
+
         </div>
-        <input id="submit" type="submit">
-    </form>
-    <div id="container">
-
     </div>
+
 
     <script type="text/javascript" src="public/index.js"></script>
 </body>

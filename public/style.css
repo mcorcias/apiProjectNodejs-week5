@@ -59,4 +59,11 @@
     background-color: DodgerBlue !important; 
     color: #ffffff; 
   }
+  .MainContainer{
+    width:450px;
+    margin:80px auto;
+  }
   
+  iframe{
+    overflow-x: hidden;
+  }
