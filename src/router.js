@@ -15,7 +15,7 @@ const router = (request, response) => {
     if (request.method === "GET") {
         if (url === "/") {
             homeHandler(request, response);
-            response.setHeader("Location", user);
+
         } else if (url === '/fetchNames') {
             fetchNames(response);
 
